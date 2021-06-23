@@ -1,0 +1,34 @@
+.logo {
+  max-height: 50rem;
+}
+
+.CoffeeBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navbar-menu.is-active {
+  animation: navAnim 0.2s ease-in-out;
+}
+
+@keyframes navAnim {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+
+  100% {
+    opacity: 1;
+    height: 100px;
+  }
+}
+
+.centerInfo {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
